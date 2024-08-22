@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>B10-Assignment-03</title>
-</head>
-<body>
-    <h1>Hi!</h1>
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/bee79333ab.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="max-w-7xl mx-auto">
+      <!-- navbar -->
+      <nav>
+
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-arrow-right rounded-full -rotate-45 h-8 w-8 text-black flex justify-center items-center bg-[#ABEF5F]"></i>
+                <h2 class=" text-3xl font-bold text-[#212121]"> Rinterio</h2>
+            </div>
+           
+            
+            
+          </div>
+          <div class="navbar-center hidden lg:flex ">
+            <ul class="menu menu-horizontal px-1 flex items-center">
+              <li><a class="text-xl font-bold text-[#212121]">Home</a></li>
+              <li><a class="text-[#737373]">Services</a></li>
+              <li><a class="text-[#737373]">Portfolio</a></li>
+              <li><a class="text-[#737373]">Blogs</a></li>
+
+              <li><a class="text-[#737373]">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end  ">
+            <div class="hidden lg:flex gap-2">
+                <button class="btn btn-ghost btn-circle border-black">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn btn-ghost btn-circle border-black">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                  </button>
+                  <a href=""></a>
+                  <a class="btn bg-[#ABEF5F] rounded-3xl overflow-hidden w-9/10 font-bold">Book Consult<i class="fa-solid fa-arrow-right rounded-full -rotate-45 h-8 w-8 text-white flex justify-center items-center bg-black"></i></a>
+            </div>
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block h-5 w-5 stroke-current">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                >
+                <li><a class="text-[#737373]">Services</a></li>
+                <li><a class="text-[#737373]">Portfolio</a></li>
+                <li><a class="text-[#737373]">Blogs</a></li>
+  
+                <li><a class="text-[#737373]">Contact Us</a></li>
+                <button class="btn btn-ghost btn-circle border-black">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn btn-ghost btn-circle border-black">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                  </button>
+                  <a href=""></a>
+                  <a class="btn bg-[#ABEF5F] rounded-3xl overflow-hidden w-9/10 font-bold">Book Consult<i class="fa-solid fa-arrow-right rounded-full -rotate-45 h-8 w-8 text-white flex justify-center items-center bg-black"></i></a>
+                </ul>
+                
+              </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
