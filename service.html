@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B10-Assignment-03</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/bee79333ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="manrope">
+    <header class="max-w-7xl mx-auto">
+      <!-- navbar -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="flex gap-2 items-center">
+              <i
+                class="fa-solid fa-arrow-right rounded-full -rotate-45 h-8 w-8 text-black flex justify-center items-center bg-[#ABEF5F]"
+              ></i>
+              <h2 class="text-3xl font-bold text-[#212121]">Rinterio</h2>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 flex items-center">
+              <li><a href="index.html" class="text-[#737373]">Home</a></li>
+              <li><a class="text-xl font-bold text-[#212121]">Services</a></li>
+              <li><a href="portfolio.html" class="text-[#737373]">Portfolio</a></li>
+              <li><a href="vlog.html" class="text-[#737373]">Blogs</a></li>
+
+              <li><a href="contructus.html" class="text-[#737373]">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden lg:flex gap-2">
+              <a class="p-3 text-xl font-bold" href="login.html">log in</a>
+              <button class="btn btn-ghost btn-circle border-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+              </button>
+              <a href=""></a>
+              <a
+                class="btn bg-[#ABEF5F] rounded-3xl overflow-hidden w-9/10 font-bold"
+                >Book Consult<i
+                  class="fa-solid fa-arrow-right rounded-full -rotate-45 h-8 w-8 text-white flex justify-center items-center bg-black"
+                ></i
+              ></a>
+            </div>
+            <div class="dropdown dropdown-end">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block h-5 w-5 stroke-current"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a class="text-[#737373]">Services</a></li>
+                <li><a class="text-[#737373]">Portfolio</a></li>
+                <li><a class="text-[#737373]">Blogs</a></li>
+
+                <li><a class="text-[#737373]">Contact Us</a></li>
+                <button class="btn btn-ghost btn-circle border-black">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="btn btn-ghost btn-circle border-black">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                </button>
+                <a href=""></a>
+                <a
+                  class="btn bg-[#ABEF5F] rounded-3xl overflow-hidden w-9/10 font-bold"
+                  >Book Consult<i
+                    class="fa-solid fa-arrow-right rounded-full -rotate-45 h-8 w-8 text-white flex justify-center items-center bg-black"
+                  ></i
+                ></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="max-w-7xl mx-auto">
+      
+      <section class="md:px-40 md:py-10">
+        <div class="text-center">
+          <h5 class="font-bold text-sm text-[#212121] ">
+            <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
+          </h5>
+          <br />
+          <h1 class="font-extrabold text-4xl text-[#212121]">
+            Our Latest Services
+          </h1>
+          <br />
+         
+          <br />
+        </div>
+        
+          <div class="md:col-span-5 gap-4 md:flex ml-48">
+            <div>
+              <img class="w-56 rounded-lg"  src="assets/interior.avif" alt="" />
+            </div>
+            <div class="">
+              <h2 class="font-extrabold text-2xl text-[#212121]">Interior Design</h2>
+              <br />
+              <p class="text-[#494949] text-xs">
+                The barn house captivates with its blend of rustic charm<br />
+                and modern. The barn house captivates with its blend <br />
+                of rustic charm and modern .
+              </p>
+              <br />
+              <div class="flex items-center gap-3">
+              
+               
+              </div>
+            </div>
+          </div>
+          <br>
+
+
+          <div class="md:col-span-5 gap-4 md:flex ml-48">
+            <div>
+              <img class="w-56 rounded-lg" src="assets/arc.jpg" alt="" />
+            </div>
+            <div class="">
+              <h2 class="font-extrabold text-2xl text-[#212121]">Architecture Design</h2>
+              <br />
+              <p class="text-[#494949] text-xs">
+                The barn house captivates with its blend of rustic charm<br />
+                and modern. The barn house captivates with its blend <br />
+                of rustic charm and modern .
+              </p>
+              <br />
+              <div class="flex items-center gap-3">
+              
+               
+              </div>
+            </div>
+          </div>
+          <br>
+
+
+          <div class="md:col-span-5 gap-4 md:flex ml-48">
+            <div>
+              <img class="w-56 rounded-lg" src="assets/3d-model-house.avif" alt="" />
+            </div>
+            <div class="">
+              <h2 class="font-extrabold text-2xl text-[#212121]">3D Modeling</h2>
+              <br />
+              <p class="text-[#494949] text-xs">
+                The barn house captivates with its blend of rustic charm<br />
+                and modern. The barn house captivates with its blend <br />
+                of rustic charm and modern .
+              </p>
+              <br />
+              <div class="flex items-center gap-3">
+              
+               
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      
+      
+    </main>
+    
+  </body>
+</html>
